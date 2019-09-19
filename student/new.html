@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Nouveau Etudiant</title>
 </head>
 <body>
-
+    <form>
+        <label for="first_name">Nom</label>
+        <input type="text" name="first_name"><br>
+        <label for="last_name">Prénom</label>
+        <input type="text" name="last_name"><br>
+        <label for="cne">CNE</label>
+        <input type="text" name="cne"><br>
+        <label for="university">Université</label>
+        <select name="university">
+            <option value="1">Faculté des sciences Rabat</option>
+            <option value="2">Faculté des lettres Rabat</option>
+            <option value="3">Faculté des sciences Ain Chock</option>
+        </select><br>
+        <label for="inscription_date">Date d'inscription</label>
+        <input type="date" name="inscription_date"><br>
+        <input type="submit" value="Enregistrer">
+    </form>
 </body>
 </html>
