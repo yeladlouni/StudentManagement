@@ -1,0 +1,13 @@
+Ecrire une page php afin de:
+
+1. Déclarer une classe Etudiant avec les attributs suivants:
+* CNE
+* Nom
+* Prénom
+* Date de naissance
+
+2. Instancier la classe Etudiant en créant 3 étudiants
+différents
+
+3. Afficher les informations relatives aux 3 étudiants
+en utilisant une table HTML
