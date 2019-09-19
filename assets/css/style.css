@@ -1,4 +1,13 @@
 
-table th tr td {
-    border: 5px dashed black;
+table, td, tr, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
 }
