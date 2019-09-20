@@ -1,3 +1,10 @@
+<?php
+    if(isset($_POST['email'])) {
+        echo $_POST['email'].'<br>';
+        echo $_POST['password'];
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +12,7 @@
     <title>Authentification</title>
 </head>
 <body>
-    <form>
+    <form action="login.php" method="post">
         <fieldset>
             <label for="email">Email</label>
             <input type="email" name="email"><br>
@@ -15,4 +22,5 @@
         </fieldset>
     </form>
 </body>
+
 </html>
