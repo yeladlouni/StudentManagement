@@ -1,0 +1,13 @@
+Compléter la page signup.php afin de :
+
+* Donner à l'utilisateur la possibilité de
+saisir son email sachant que l'email est obligatoire.
+Afficher le message d'erreur en bas de la zone de saisie "Email obligatoire."
+si l'utilisateur n'a pas saisi le champs.
+* Ajouter un champs obligatoire pour la saisie du mot de passe
+* Ajouter un champs obligatoire pour la saisie de la confirmation du mdp
+* Afficher un message d'erreur si le mdp de confirmation n'est pas conforme.
+* Afficher en bas de chaque champs un message d'erreur si le champs est vide
+* Ajouter un champs pour la saisie de l'âge
+* Afficher un message d'erreur en bas si l'âge n'est pas conforme
+au règles générales d'utilisation (âge > 18ans)
