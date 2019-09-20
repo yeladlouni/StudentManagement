@@ -18,7 +18,6 @@ div {
     height: 100px;
 }
 
-body {
-    background-color: black;
+.error {
+    color: red;
 }
-
