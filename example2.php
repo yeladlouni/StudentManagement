@@ -17,10 +17,10 @@ $etudiant1->firstName = "Dummy1";
 $etudiant1->lastName = "Dummy1";
 $etudiant1->birthDate = "30/01/1990";
 
-$etudiant2->cne = "Dummy2";
-$etudiant2->firstName = "Dummy2";
-$etudiant2->lastName = "Dummy2";
-$etudiant2->birthDate = "30/01/2000";
+$etudiant2->cne = "Dummy1";
+$etudiant2->firstName = "Dummy1";
+$etudiant2->lastName = "Dummy1";
+$etudiant2->birthDate = "30/01/1990";
 
 $etudiant3->cne = "Dummy3";
 $etudiant3->firstName = "Dummy3";
@@ -61,5 +61,30 @@ $etudiant3->birthDate = "30/01/2010";
         <td><?php echo $etudiant3->lastName ?></td>
         <td><?php echo $etudiant3->birthDate ?></td>
     </table>
+
+    <div>
+        <?php
+            if($etudiant1 == $etudiant2) {
+                echo "Les 2 étudiants 1 et 2 sont similaires<br>";
+            } else {
+                echo "les 2 étudiants 1 et 2 ne sont pas similaires<br>";
+            }
+
+            if($etudiant1 === $etudiant2) {
+                echo "Les 2 étudiants 1 et 2 sont identiques<br>";
+            } else {
+                echo "Les 2 étudiants 1 et 2 ne sont pas identiques<br>";
+            }
+
+            $etudiant5 = $etudiant1;
+
+            if($etudiant1 === $etudiant5) {
+                echo "Les 2 étudiants 1 et 5 sont identiques<br>";
+            } else {
+                echo "Les 2 étudiants 1 et 5 ne sont pas identiques<br>";
+            }
+
+        ?>
+    </div>
 </body>
 </html>
