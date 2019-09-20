@@ -33,6 +33,14 @@
     for($i=0;$i<100;$i++) {
         $etudiant = $etudiants[$i];
 
+        if ($i >=0 && $i <10) {
+            $color = "red";
+        } elseif($i >=10 && $i <20) {
+            $color = "cyan";
+        } else {
+            $color = "yellow";
+        }
+
         switch (floor($i/10)) {
             case 0:
                 $color = "red";
