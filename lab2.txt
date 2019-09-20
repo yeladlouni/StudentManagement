@@ -1,0 +1,7 @@
+Ecrire un code PHP afin de :
+
+* Déclarer un tableau d'étudiants contenant 100 étudiants
+Etudiant: nom, prénom, date de naissance, Tél, Email
+* Affecter des valeurs aleatoires à chaque attribut
+* Utiliser foreach afin d'afficher les données de chaque étudiant
+dans un bloc avec des couleurs différentes.

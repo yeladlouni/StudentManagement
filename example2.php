@@ -84,6 +84,16 @@ $etudiant3->birthDate = "30/01/2010";
                 echo "Les 2 étudiants 1 et 5 ne sont pas identiques<br>";
             }
 
+            $x = 6;
+
+            while($x <= 5) {
+                echo "while: $x<br>";
+            }
+
+            do {
+                echo "do while: $x<br>";
+            } while($x <= 5);
+
         ?>
     </div>
 </body>
