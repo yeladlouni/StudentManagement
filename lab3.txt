@@ -1,0 +1,5 @@
+Modifier la page login.php afin de:
+* Afficher l'email sur la page index.php si l'utilisateur
+renseigne l'email admin@a.com et le mot de passe admin
+* Afficher une page vide le cas contraire
+

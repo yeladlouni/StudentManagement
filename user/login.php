@@ -1,10 +1,3 @@
-<?php
-    if(isset($_POST['email'])) {
-        echo $_POST['email'].'<br>';
-        echo $_POST['password'];
-    }
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,14 +5,12 @@
     <title>Authentification</title>
 </head>
 <body>
-    <form action="login.php" method="post">
-        <fieldset>
+    <form action="../index.php" method="get">
             <label for="email">Email</label>
             <input type="email" name="email"><br>
             <label for="password">Mot de passe</label>
-            <input type="password" name="password" pattern="*[@_/]*"><br>
-            <input type="button" value="Se connecter">
-        </fieldset>
+            <input type="password" name="password"><br>
+            <input type="submit" value="Se connecter">
     </form>
 </body>
 

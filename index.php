@@ -6,7 +6,11 @@
 </head>
 <body>
 <?php
-    echo "Hello World";
+    $email = $_GET['email'];
+    $password = $_GET['password'];
+    if($email == 'a@a.com' && $password == 'admin') {
+        echo $_GET['email']."<br>";
+    }
 ?>
 </body>
 </html>
