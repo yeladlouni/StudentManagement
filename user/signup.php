@@ -40,6 +40,8 @@
             $sql = "INSERT INTO user VALUES(" . $firstName . ", " . $lastName .  ")";
 
             $conn->exec($sql);
+
+            $conn = null;
         } catch(PDOException $e) {
             echo $e->getMessage();
         }
@@ -94,3 +96,14 @@
     </form>
 </body>
 </html>
+
+<!-- ActiveDirectory: gère les comptes d'une entreprise ldap
+
+Single Sign-On : SSO c'est un protocole qui permet de se connecter à travers un seul mot de passe
+à plusieurs applications
+
+vauth2: norme de sécurité qui permet de gérer l'authorisation et l'authentification
+
+two-way authentification: lorsqu'on utilise l'email et le sms pour authentifier un utilisateur
+
+-->

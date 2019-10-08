@@ -1,3 +1,9 @@
+<?php
+    if(!isset($_SESSION['token'])) {
+        header("Location: http://localhost/user/login.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
