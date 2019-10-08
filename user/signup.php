@@ -29,6 +29,21 @@
         if($birthDate - date() > 18*365) {
             $birthDateError = "L'âge doit être supérieur à 18ans.";
         }
+
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+
+        try {
+            $conn = new PDO("mysql:host=$servername;dbname=students", $username, $password);
+
+            $sql = "INSERT INTO user VALUES(" . $firstName . ", " . $lastName .  ")";
+
+            $conn->exec($sql);
+        } catch(PDOException $e) {
+            echo $e->getMessage();
+        }
+        
     }
 
 ?>
