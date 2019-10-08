@@ -1,0 +1,26 @@
+1. Ajouter une page d'enregistrement signup avec les informations
+suivantes:
+* CNE champs obligatoire 10 digits
+* Nom
+* Prénom
+* Date de naissance
+* Email: Vérifier la syntaxe de l'email
+* Adresse
+
+Lorsque l'utilisateur clique sur le boutton Enregistrer, 
+les informations de l'étudiant doivent être enregistrées dans la BD.
+
+Lorsque une information obligatoire n'est pas saisie ou la syntaxe 
+est erronée, afficher un message d'erreur en bas du champs de saisie.
+
+2. Envoyer un email de confirmation à l'étudiant
+
+3. L'étudiant doît être capable de se connecter sur la page d'acceuil:
+
+- Vérifier si une session est déjà ouverte
+- Si la session n'est pas déjà ouverte, présenter la page de connexion
+à l'utilisateur
+- Afficher la page d'acceuil si l'utilisateur est authentifié
+
+4. La page d'acceuil doit afficher la liste des étudiants
+qui sont déjà enregistré sur la base de donnée.
